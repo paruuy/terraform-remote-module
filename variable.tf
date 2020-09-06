@@ -4,9 +4,10 @@ variable "hash_commit" {
   description = "Hash commit of specific aws_ami (linixtips image)"
 }
 
-variable "name" {
+variable "app_name" {
   type = string
-  description = "Sem nome"
+  description = "App name"
+  default = "Sem nome"
 }
 
 variable "instance_type" {
