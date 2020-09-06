@@ -15,5 +15,3 @@ variable "instance_type" {
   description = "Instance type of server"
   default = "t3.micro"
 }
-
-}
